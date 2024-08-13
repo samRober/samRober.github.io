@@ -1,7 +1,18 @@
+@font-face {
+	font-family: 'PokemonGB';
+	src: local('PokemonGB'), url('./PokemonGB.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'hurtmoldregular';
+	src: local('hurtmoldregular'), url('./hurtmoldregular.woff') format('woff');
+}
+
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "hurtmoldregular" !important;
 }
 body {
     font-size: 18px;
